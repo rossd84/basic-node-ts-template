@@ -1,0 +1,1 @@
+// contains things like hashing, UUIDs, etc.
