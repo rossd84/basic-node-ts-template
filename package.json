@@ -4,13 +4,13 @@
   "description": "Template for setting up Node server using Typescript, Express, nodemon",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
+    "build": "tsc -p .",
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
-    "build": "tsc -p .",
     "format": "prettier . --write",
+    "eslint": "eslint",
     "eslint:fix": "eslint --fix",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "keywords": [
     "node",
@@ -38,6 +38,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.0",
     "jest": "^29.6.2",
+    "markdown-notes-tree": "^1.13.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.1",
     "ts-jest": "^29.1.1",
